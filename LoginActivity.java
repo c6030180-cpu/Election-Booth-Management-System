@@ -1,3 +1,4 @@
+import android.content.Intent;
 package com.example.election;
 
 import android.os.Bundle;
@@ -27,6 +28,8 @@ public class LoginActivity extends AppCompatActivity {
 
             if(username.equals("admin") && password.equals("1234")) {
                 Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
+startActivity(intent);
             } else {
                 Toast.makeText(LoginActivity.this, "Invalid Username or Password", Toast.LENGTH_SHORT).show();
             }
