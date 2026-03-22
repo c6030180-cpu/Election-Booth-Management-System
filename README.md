@@ -11,10 +11,3 @@ Username: admin
 Password: 1234  
 
 Note: Original project code is confidential.
-## 📸 Screenshots
-
-Login Screen:
-![Login](screenshots/login.png)
-
-Dashboard:
-![Dashboard](screenshots/dashboard.png)
